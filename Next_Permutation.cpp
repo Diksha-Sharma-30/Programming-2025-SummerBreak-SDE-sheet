@@ -10,7 +10,7 @@ vector <int> reverse_Subarray(vector<int> &v,int start,int last){
         return v;
     }
 int main(){
-    vector<int> nums={1,4,2,1,3,9,7,0,0};
+        vector<int> nums={1,4,2,1,3,9,7,0,0};
         int ind=0;
         int n=nums.size();
         for (int i=n-2;i>=0;i--){
